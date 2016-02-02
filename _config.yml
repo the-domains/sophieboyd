@@ -1,28 +1,40 @@
-name: SophieBoyd
 favicon: null
-layout_spectrum: 0.26079127425327897
-typography_spectrum: 0.5083531534764916
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: SophieBoyd
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0
-  lightness: 1
-  saturation: 0.015285550151020288
-  rhythmicContrast: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5064447
+  brandStrength: 1
+  lightness: 0.4881848
+  brandColors:
+    - '#FFDE88'
+    - '#E66760'
+    - '#F1B2E1'
+    - '#B2DDF0'
+    - '#FFFDFB'
+  rhythmicContrast: 0.5107411
+typography_spectrum: 0.03168633
+layout_spectrum: 0.217508
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
